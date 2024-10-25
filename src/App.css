@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex; 
+  justify-content: center; 
+  /* align-items: center; 
+  height: 100vh;  */
+  width: 100%;
+}
+
+.container {
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Maximum width for large screens */
+  padding: 20px; /* Padding inside the container */
+  background: #c76262; 
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for container */
+}
+
+nav {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+nav h1 {
+  display: inline;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a.active {
+  border-bottom: 2px solid #fff;
+}
+
+main {
+  padding: 1rem; /* Padding for the main content */
+}
+
+section {
+  padding: 20px;
+  margin: 20px 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+  text-align: center; /* Center footer text */
+  margin-top: 20px; /* Space above footer */
+  font-size: 0.9em; /* Smaller font size */
+  background-color: aqua;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column; /* Stack navbar items on small screens */
+    align-items: center; /* Center align items */
+  }
+
+  .card {
+    padding: 15px; /* Reduce padding on small screens */
+  }
+}
